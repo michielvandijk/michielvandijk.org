@@ -27,7 +27,13 @@ role: Senior researcher, Guest researcher
 social:
 - icon: envelope
   icon_pack: fas
-  link: ""
+  link: mailto:michiel.vandijk@wur.nl
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Michiel_Van_Dijk
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-5207-7304
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.at/citations?user=6JzxHAkAAAAJ&hl=nl&oi=ao
