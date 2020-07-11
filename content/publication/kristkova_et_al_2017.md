@@ -1,14 +1,14 @@
 ---
 title: 'The impact of R&D on factor-augmenting technical change – an empirical assessment at the sector level'
 authors:
-authors:
+- Zuzana Smeets Kristkova
+- Cornelis Gardebroek
 - admin
-- Robert Ford
+- Hans van Meijl
 date: '2017-01-01'
 slug: kristkova_et_al_2017
 categories: []
 tags: []
-authors: []
 doi: '10.1080/09535314.2017.1316707'
 publishDate: '2020-07-11T12:20:58+02:00'
 publication_types:

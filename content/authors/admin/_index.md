@@ -21,9 +21,7 @@ interests:
 organizations:
 - name: Wageningen Economic Research
   url: https://www.wur.nl/en/Research-Results/Research-Institutes/Economic-Research.htm
-- name: International Institute for Applied Systems Analysis (IIASA)
-  url: https://iiasa.ac.at
-role: Senior researcher, Guest researcher
+role: Senior researcher
 social:
 - icon: envelope
   icon_pack: fas
@@ -42,9 +40,6 @@ social:
   link: https://github.com/michielvandijk
 superuser: true
 title: Michiel van Dijk
-user_groups:
-- Researchers
-- Visitors
 ---
 
 Michiel van Dijk joined IIASA’s Ecosystems Services and Management Program (ESM) as a Research Scholar in November 2016. He is a development economist with interest in the analysis and assessment of technology, food security and agricultural policies in developing countries and emerging economies using integrated assessment models, econometrics and scenario analysis.

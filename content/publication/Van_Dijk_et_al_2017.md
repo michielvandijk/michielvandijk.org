@@ -1,14 +1,10 @@
 ---
-abstract: test ag sys
-author_notes:
-- Equal contribution
-- Equal contribution
 authors:
 - admin
 - Robert Ford
 date: "2015-09-01T00:00:00Z"
 doi: ""
-featured: false
+featured: true
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""
@@ -33,13 +29,3 @@ url_slides: ""
 url_source: ""
 url_video: ""
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
