@@ -3,7 +3,7 @@ title: 'The impact of R&D on factor-augmenting technical change – an empirical
 authors:
 - Zuzana Smeets Kristkova
 - Cornelis Gardebroek
-- admin
+- mvd
 - Hans van Meijl
 date: '2017-01-01'
 slug: kristkova_et_al_2017
