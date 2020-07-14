@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "Featured Publications"
+title = "Selected Publications"
 subtitle = ""
 
 [content]
@@ -66,3 +66,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+{{% alert note %}}
+Browse all publications [here]({{< ref "/publication/_index.md" >}}).
+{{% /alert %}}
