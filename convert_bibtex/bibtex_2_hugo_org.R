@@ -20,8 +20,6 @@ bibtex_2academic <- function(bibfile,
   library(stringr)
   library(anytime)
   
-  library(bib2df)
-  
   # Import the bibtex file and convert to data.frame
   mypubs   <- ReadBib(bibfile, check = "warn", .Encoding = "UTF-8") %>%
     as.data.frame()
@@ -48,45 +46,31 @@ bibtex_2academic <- function(bibfile,
   
   # create a function which populates the md template based on the info
   # about a publication and creates a new folder for each publication
-  
-  mypubs   <- bib2df(bibfile) %>%
-    setNames(tolower(names(.)))
-  
-  x <- mypubs[21, ]
-  
-  z <- x %>%
-    dplyr::select(CATEGORY, BIBTEXKEY, AUTHOR, TITLE, JOURNAL, YEAR, VOLUME, NUMBER, PAGES, 
-                  BOOKTITLE, CHAPTER, EDITOR, PUBLISHER, DOI)
-  
-  
-  df2bib(z)
-  
   create_md <- function(x) {
     
+    # define a date and create filename by appending date and start of title
+    if (!is.na(x[["year"]])) {
+      x[["date"]] <- paste0(x[["year"]], "-01-01")
+    } else {
+      x[["date"]] <- "2999-01-01"
+    }
+    
     # strings to remove (rm) and to keep (kp)
-    rm <- "^(?i)abstract"
+    rm <- "(?i)(abstract)"
     kp <- "[^[:alnum:][:blank:]+?&/\\-]"
     
-    # Modify variables and remove strings
-    x <- x %>%
-      mutate(year = ifelse(is.na(year), 9999, year),
-             abstract = str_remove_all(abstract, kp),
-             abstract = str_remove_all(abstract, rm),
-             author = str_remove_all(author, kp),
-             title = str_remove_all(title, kp),
-             date = paste0(year, "-01-01")        
-             )
-    
-    foldername <- tolower(paste(x[["year"]], x[["title"]] %>%
+    # Create folder
+    foldername <- tolower(paste(x[["date"]], x[["title"]] %>%
+                        str_remove_all(rm) %>%
+                        str_remove_all(kp) %>%  
                         str_replace_all(fixed(" "), "_") %>%
-                        str_sub(1, 30), sep = "_"))
-    
-    dir.create(file.path(outfold, foldername), showWarnings = FALSE, recursive = TRUE)
-    
+                        str_sub(1, 20) %>%
+                        paste0(".md"), sep = "_"))
+   
     # Create md file
-    filename <- "index.md"
-    if (!file.exists(file.path(outfold, foldername, filename))) {
-      fileConn <- file.path(outfold, foldername, filename)
+    # start writing
+    if (!file.exists(file.path(outfold, filename)) | overwrite) {
+      fileConn <- file.path(outfold, filename)
       write("+++", fileConn)
       
       # Title and date
@@ -120,7 +104,11 @@ bibtex_2academic <- function(bibfile,
       write(paste0("publication_short = \"", publication,"\""),fileConn, append = T)
       
       # Abstract and optional shortened version.
-      write(paste0("abstract = \"", x[["abstract"]],"\""), fileConn, append = T)
+      if (abstract) {
+        write(paste0("abstract = \"", x[["abstract"]],"\""), fileConn, append = T)
+      } else {
+        write("abstract = \"\"", fileConn, append = T)
+      }
       write(paste0("abstract_short = \"","\""), fileConn, append = T)
       
       # other possible fields are kept empty. They can be customized later by
@@ -151,10 +139,6 @@ bibtex_2academic <- function(bibfile,
       write("+++", fileConn, append = T)
     }
   }
-  
-  # Create bib file to facilitate citation
-  
-  
   # apply the "create_md" function over the publications list to generate
   # the different "md" files.
   
