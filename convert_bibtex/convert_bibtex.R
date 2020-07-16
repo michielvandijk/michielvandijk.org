@@ -1,6 +1,7 @@
-my_bibfile <- "convert_bibtex/vanDijk.bib"
-out_fold   <- "convert_bibtex/test"
+bibfile <- "convert_bibtex/vanDijk.bib"
+outfold   <- "convert_bibtex"
 
-bibtex_2academic(bibfile  = my_bibfile, 
-                 outfold   = out_fold, 
-                 abstract  = FALSE)
+bibtex2academic(bibfile  = bibfile, 
+                 outfold   = outfold)
+df <- mypubs[19,]
+

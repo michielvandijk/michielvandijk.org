@@ -1,0 +1,42 @@
+---
+title: Setting Up My Academic Website with Blogdown
+author: Michiel van Dijk
+date: '2020-09-01'
+slug: setting-up-my-academci-website-with-blogdown
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-07-16T15:16:44+02:00'
+featured: no
+draft: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+I finally found some time during the holidays to setup my personal academic website using the fantastic R package [blogdown](https://cran.r-project.org/web/packages/blogdown/index.html). Several others have written excellent blogs and documentation on how to get started with blogdown so I will mention the sources I used below and not repeat the basics. Instead I will focus on a few issues that come right after creating the template website and took me quite some time to figure out (although in many cases it was just a matter of carefully reading Hugo documentation).
+
+My main guide to setting up the first version was the blog by [ADD]. I mainly decided to use her guidance as it was one of the most recent blogs on setting up blogdown and therefore was most likely to cover possible updates in Hugo or the Hugo Academic theme that might have been implemented and not (yet) covered by the otherwise excellent book by Yihie et al [ADD], which contains most information on how to setup and use blogdown.
+
+# Hugo structure: widgets, index.md and _index.md
+
+
+# Importing a bibtex publications list
+
+Used code prepared by, who should get all the credits for coding this. I updated the code in 
+
+- use bib2df
+- Remove {} and other special symbols
+- use YAML, which is now used for nearly all pages, instead of TOML.
+- create separate folder with an index.md file for each publication, which makes it possible to add/reference other information, in particular a cite.bib, which is also automatically created.
+- Automatically add new entries when bibtex file is replaced by a new version with updated information. 
+
+
+# Nitty gritty
+
+- Switching off connected content.
+
