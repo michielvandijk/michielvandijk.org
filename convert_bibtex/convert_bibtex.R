@@ -3,5 +3,5 @@ outfold   <- "convert_bibtex"
 
 bibtex2academic(bibfile  = bibfile, 
                  outfold   = outfold)
-df <- mypubs[19,]
+
 

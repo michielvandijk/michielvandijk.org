@@ -1,12 +1,20 @@
 ---
-title: "Stakeholder-designed scenarios for global food security assessments"
-authors: ["Michiel Van Dijk, Adam Szirmai"]
-date: "2020-01-01"
-doi: "10.1016/j.gfs.2020.100352"
+title: "FOODSECURE Scenario Driver Database"
+authors: 
+- Michiel Van Dijk
+- Marc Gramberger
+- David Laborde
+- Maryia Mandryk
+- Lindsay Shutes
+- Elke Stehfest
+- Hugo Valin
+- Katharina Zellmer
+date: "2019-01-01"
+doi: "https://doi.org/10.17026/dans-zeh-fd4m"
 publishDate: ""
-publication_types: ["2"]
-publication: "***Global Food Security***, (24), pp. 100352"
-publication_short: "***Global Food Security***, (24), pp. 100352"
+publication_types: ["0"]
+publication: ""
+publication_short: ""
 abstract: ""
 summary: ""
 tags: []

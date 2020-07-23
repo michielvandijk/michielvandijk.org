@@ -24,8 +24,8 @@ bibtex2academic <- function(bibfile,
   blogdown::stop_server()
   
   # Import the bibtex file as tibble, use separate names to extract full names
-  mypubs   <- bib2df(bibfile, separate_names = TRUE) %>%
-    as.data.frame()
+  options(encoding="UTF-8")
+  mypubs   <- bib2df(bibfile, separate_names = TRUE) 
   
   # Assign "categories" to the different types of publications
   # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -43,41 +43,45 @@ bibtex2academic <- function(bibfile,
                                  CATEGORY == "PHDTHESIS" ~ "7",
                                  CATEGORY == "MANUAL" ~ "4",
                                  CATEGORY == "TECHREPORT" ~ "4",
-                                 CATEGORY == "BOOK" ~ "5",
-                                 CATEGORY == "INCOLLECTION" ~ "6",
-                                 CATEGORY == "INBOOK" ~ "6",
+                                 CATEGORY == "BOOK" ~ "6",
+                                 CATEGORY == "INCOLLECTION" ~ "5",
+                                 CATEGORY == "INBOOK" ~ "5",
                                  CATEGORY == "MISC" ~ "0",
                                  CATEGORY == "UNPUBLISHED" ~ "0",
                                  CATEGORY == "PATENT" ~ "8",
-                                 TRUE ~ "0"))
+                                 TRUE ~ "0")) %>%
+    arrange(desc(YEAR), TITLE)
   
   # create a function which populates the md template based on the info
   # about a publication and creates a new folder for each publication
   create_pub <- function(x) {
     
     # strings to remove (rm) and to keep (kp)
-    rm <- "^(?i)abstract"
-    kp <- "[^[:alnum:][:blank:]+,?&/\\-]"
+    rm1 <- "[{}]"
+    rm2 <- "^(?i)abstract"
+    kp <- "[^[:alnum:][:blank:]+,?&/\\-.():!]"
 
+    # https://stackoverflow.com/questions/62391363/reading-latex-accents-of-bib-in-r
     
     # Modify variables, collapse full author names and remove strings
     df <- mypubs[x,] %>%
       dplyr::mutate(YEAR = ifelse(is.na(YEAR), 9999, YEAR),
              ABSTRACT = str_remove_all(ABSTRACT, kp),
-             ABSTRACT = str_remove_all(ABSTRACT, rm),
-             AUTHOR2 = paste(df$AUTHOR[[1]]["full_name"]$full_name, collapse = ", "),
-             AUTHOR2 = str_remove_all(AUTHOR2, kp),
-             EDITOR2 = paste(df$EDITOR[[1]]["full_name"]$full_name, collapse = ", "),
-             EDITOR2 = str_remove_all(EDITOR2, kp),
+             ABSTRACT = str_remove_all(ABSTRACT, rm2),
+             ABSTRACT = ifelse(is.na(ABSTRACT), "", ABSTRACT),
+             AUTHOR2 = paste0("\n- ", paste0(AUTHOR[[1]]["full_name"]$full_name, collapse = "\n- ")),
+             AUTHOR2 = str_remove_all(AUTHOR2, rm1),
+             AUTHOR2 = stringi::stri_trans_general(AUTHOR2, "latin-ascii"),
+             EDITOR2 = paste(EDITOR[[1]]["full_name"]$full_name, collapse = ", "),
+             EDITOR2 = str_remove_all(EDITOR2, rm1),
              TITLE = str_remove_all(TITLE, kp),
-             DATE = paste0(YEAR, "-01-01")) 
-    
-    # replace all NAs with ""
-    df[is.na(df)] <- ""
+             DATE = paste0(YEAR, "-01-01"),
+             DOI2 = ifelse(is.na(DOI), "", DOI)) 
     
     foldername <- tolower(paste(df[["YEAR"]], df[["TITLE"]] %>%
-                        str_replace_all(fixed(" "), "_") %>%
-                        str_sub(1, 30), sep = "_"))
+                    str_remove_all("[^[:alnum:][:blank:]-]") %>%
+                    str_replace_all(fixed(" "), "_") %>%
+                    str_sub(1, 35), sep = "_"))
     cat(foldername, "\n")
     dir.create(file.path(outfold, foldername), showWarnings = FALSE, recursive = TRUE)
     
@@ -88,10 +92,11 @@ bibtex2academic <- function(bibfile,
       write("---", fileConn)
       
       # Main information
+      Encoding(df[["TITLE"]]) <- "unknown"
       write(paste0("title: \"", df[["TITLE"]], "\""), fileConn, append = T)
-      write(paste0("authors: [\"", df["AUTHOR2"], "\"]"), fileConn, append = T)
+      write(paste0("authors: ", df["AUTHOR2"]), fileConn, append = T)
       write(paste0("date: \"", anydate(df[["DATE"]]), "\""), fileConn, append = T)
-      write(paste0("doi: \"", df[["DOI"]], "\""),fileConn, append = T)
+      write(paste0("doi: \"", df[["DOI2"]], "\""),fileConn, append = T)
       
       # Schedule page publish date (NOT publication's date). Empty for now
       write(paste0("publishDate: \"\""),fileConn, append = T)
@@ -104,37 +109,31 @@ bibtex2academic <- function(bibfile,
       # Create pub_format for each publication type
       
       if(df[["PUBTYPE"]] == 2){
-        pub_format <- df[["JOURNAL"]]
-        if (!is.na(df[["NUMBER"]])) pub_format <- paste0("***",df[["JOURNAL"]], "***",
-                                                          ", ", df[["NUMBER"]])
-        if (!is.na(df[["VOLUME"]])) pub_format <- paste0(pub_format,
-                                                          "(", df[["VOLUME"]], ")")
-        if (!is.na(df[["PAGES"]])) pub_format <- paste0(pub_format,
-                                                         ", pp. ", df[["PAGES"]])
+        pub_format <- paste0("***",df[["JOURNAL"]], "***")
+        if (!is.na(df[["VOLUME"]])) pub_format <- paste0(pub_format, ", ", df[["VOLUME"]])
+        if (!is.na(df[["NUMBER"]])) pub_format <- paste0(pub_format, "(", df[["NUMBER"]], ")")
+        if (!is.na(df[["PAGES"]])) pub_format <- paste0(pub_format,  ", pp. ", df[["PAGES"]])
       } else if(df[["PUBTYPE"]] == 5) {
-        
-       
-      } else if(df[["PUBTYPE"]] == 2) {
-        
-      } else if(df[["PUBTYPE"]] == 2) {
-        
-      } else if(df[["PUBTYPE"]] == 2) {
-        
+        pub_format <- paste0(" In: ***", df[["BOOKTITLE"]], "***")
+        if (!is.na(df[["EDITOR2"]])) pub_format <- paste0(pub_format, ". Ed. by ", df[["EDITOR2"]])
+        if (!is.na(df[["ADDRESS"]])) pub_format <- paste0(pub_format, ". ", df[["ADDRESS"]])
+        if (!is.na(df[["PUBLISHER"]]) & !is.na(df[["ADDRESS"]])) {
+          pub_format <- paste0(pub_format, ": ", df[["PUBLISHER"]])
+        } else if (!is.na(df[["PUBLISHER"]]) & is.na(df[["ADDRESS"]])) {
+          pub_format <- paste0(pub_format, ". ", df[["PUBLISHER"]])
+        }
+        if (!is.na(df[["PAGES"]])) pub_format <- paste0(pub_format, ", pp. ", df[["PAGES"]])
+      } else if(df[["PUBTYPE"]] == 4) {
+        pub_format <- paste0("***", df[["SERIES"]], "***")
       } else {
-        
+        pub_format <- ""
       }
     
-      publication <- df[["JOURNAL"]]
-      if (!is.na(df[["NUMBER"]])) publication <- paste0("***", publication, "***",
-                                                       ", ", df[["NUMBER"]])
-      if (!is.na(df[["VOLUME"]])) publication <- paste0(publication,
-                                                       "(", df[["VOLUME"]], ")")
-      if (!is.na(df[["PAGES"]])) publication <- paste0(publication,
-                                                      ", pp. ", df[["PAGES"]])
-      write(paste0("publication: \"", publication, "\""), fileConn, append = T)
-      write(paste0("publication_short: \"", publication, "\""),fileConn, append = T)
+      write(paste0("publication: \"", pub_format, "\""), fileConn, append = T)
+      write(paste0("publication_short: \"", pub_format, "\""),fileConn, append = T)
       
       # Abstract and optional shortened version.
+      Encoding(df[["ABSTRACT"]]) <- "unknown"
       write(paste0("abstract: \"", df[["ABSTRACT"]],"\""), fileConn, append = T)
       write(paste0("summary: \"","\""), fileConn, append = T)
       
@@ -205,10 +204,18 @@ bibtex2academic <- function(bibfile,
     if (!file.exists(file.path(outfold, foldername, bib_file))) {
       fileConn <- file.path(outfold, foldername, bib_file)
       cite <- df %>%
-        dplyr::select(CATEGORY, BIBTEXKEY, AUTHOR = AUTHOR2, TITLE, JOURNAL, YEAR, VOLUME, NUMBER, PAGES,
-                      BOOKTITLE, CHAPTER, NUMBER, SERIES, EDITOR = EDITOR2, PUBLISHER, DOI) %>%
-        dplyr::mutate(AUTHOR = str_replace_all(AUTHOR, ", ", " and "),
-               EDITOR = str_replace_all(EDITOR, ", ", " and "))
+        dplyr::select(CATEGORY, BIBTEXKEY, AUTHOR, TITLE, JOURNAL, YEAR, VOLUME, NUMBER, PAGES,
+                      BOOKTITLE, CHAPTER, NUMBER, SERIES, EDITOR, PUBLISHER, ADDRESS, DOI) %>%
+        dplyr::mutate(
+          AUTHOR = paste0(AUTHOR[[1]]["full_name"]$full_name, collapse = " and "),
+          AUTHOR = str_remove_all(AUTHOR, rm1),
+          EDITOR = ifelse(all(is.na(df$EDITOR[[1]][["full_name"]])), NA, 
+                          paste(EDITOR[[1]]["full_name"]$full_name, collapse = " and ")),
+          EDITOR = str_remove_all(EDITOR, rm1))
+      
+      # remove all NA columns
+      cite <- cite[,colSums(is.na(cite)) < nrow(cite)]
+      
       df2bib(cite, file = fileConn)
     }
   }
@@ -216,4 +223,5 @@ bibtex2academic <- function(bibfile,
   # the different "md" files.
   
   walk(1:nrow(mypubs), function(x) create_pub(x))
-  }
+  
+}

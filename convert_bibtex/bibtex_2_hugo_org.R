@@ -21,7 +21,7 @@ bibtex_2academic <- function(bibfile,
   library(anytime)
   
   # Import the bibtex file and convert to data.frame
-  mypubs   <- ReadBib(bibfile, check = "warn", .Encoding = "UTF-8") %>%
+  mypubs2   <- ReadBib(bibfile, check = "warn", .Encoding = "UTF-8") %>%
     as.data.frame()
   
   # assign "categories" to the different types of publications
