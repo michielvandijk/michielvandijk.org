@@ -1,7 +1,7 @@
 ---
 title: "Mapping the change in crop distribution over time using a data fusion approach"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Ulrike Wood-Sichra
 - Yating Ru
 - Amanda Palazzo
@@ -18,6 +18,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

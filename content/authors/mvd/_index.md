@@ -1,7 +1,7 @@
 ---
 authors:
 - mvd
-bio: My research interests include ADD.
+bio: My research interests include Integrated assessment modeling, Scenario analysis, Food security, Agricultural innovation, Yield gap analysis.
 education:
   courses:
   - course: PhD in Technological Development and Economic Change
@@ -12,12 +12,11 @@ education:
     year: 1999
 email: michiel.vandijk@wur.nl
 interests:
-- Integrated Assessment Modelling
-- Econometrics
+- Integrated Asessment Modeling
 - Scenario analysis
 - Food security
 - Agricultural innovation
-- Yield gaps
+- Yield gap analysis
 organizations:
 - name: Wageningen Economic Research
   url: https://www.wur.nl/en/Research-Results/Research-Institutes/Economic-Research.htm

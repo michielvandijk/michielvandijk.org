@@ -1,7 +1,7 @@
 ---
 title: "FOODSECURE Scenario Driver Database"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Marc Gramberger
 - David Laborde
 - Maryia Mandryk
@@ -20,6 +20,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

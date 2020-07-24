@@ -1,7 +1,7 @@
 ---
 title: "Global food security projections: A systematic literature review"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Tom Morley
 - Marie Luise Rau
 - Yashar Saghai
@@ -16,6 +16,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

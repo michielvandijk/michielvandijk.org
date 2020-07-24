@@ -1,7 +1,7 @@
 ---
 title: "The Micro-Dynamics Of Catch-Up In Indonesian Paper Manufacturing"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Adam Szirmai
 date: "2011-01-01"
 doi: ""
@@ -14,6 +14,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

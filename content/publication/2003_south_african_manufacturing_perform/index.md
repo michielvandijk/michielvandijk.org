@@ -1,7 +1,7 @@
 ---
 title: "South African manufacturing performance in international perspective 1970-1999"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 date: "2003-01-01"
 doi: "10.1111/j.1813-6982.2003.tb00074.x"
 publishDate: ""
@@ -14,6 +14,7 @@ tags: []
 categories: []
 featured: false
 url_pdf: ""
+url_pdf: "http://doi.wiley.com/10.1111/j.1813-6982.2003.tb00074.x http://onlinelibrary.wiley.com/doi/10.1111/j.1813-6982.2003.tb00074.x/abstract%5Cnhttp://onlinelibrary.wiley.com/store/10.1111/j.1813-6982.2003.tb00074.x/asset/j.1813-6982.2003.tb00074.x.pdf?v=1&t=hq"
 url_code: ""
 url_dataset: ""
 url_poster: ""

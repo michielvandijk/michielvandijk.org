@@ -1,13 +1,13 @@
 ---
-title: "Impact of agricultural R&D investments on long-term food securityâ an ex-ante impact assessment"
+title: "Impact of agricultural R&D investments on long-term food security an ex-ante impact assessment"
 authors: 
-- Z Smeets Kristkova
-- Michiel Van Dijk
+- Zuzana Smeets Kristkova
+- Michiel van Dijk
 - Hans van Meijl
 date: "2017-01-01"
 doi: ""
 publishDate: ""
-publication_types: ["5"]
+publication_types: ["6"]
 publication: " In: ***Frontiers of Economics and Globalization***. Ed. by Andrew Schmitz"
 publication_short: " In: ***Frontiers of Economics and Globalization***. Ed. by Andrew Schmitz"
 abstract: ""
@@ -15,6 +15,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

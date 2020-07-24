@@ -1,7 +1,7 @@
 ---
 title: "A global index of Agricultural Innovation: Construction, ranking and application"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Zuzana Smeets Kristkova
 - Nicolas Gerber
 date: "2018-01-01"
@@ -15,6 +15,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

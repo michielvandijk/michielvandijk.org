@@ -1,7 +1,7 @@
 ---
 title: "Zambia CSIP: IIASA Background report"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Amanda Palazzo
 - Petr Havl\'ik
 - Tamas Krisztin
@@ -17,6 +17,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

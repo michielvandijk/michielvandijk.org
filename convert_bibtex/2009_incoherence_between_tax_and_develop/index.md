@@ -2,7 +2,7 @@
 title: "Incoherence between Tax and Development Policies: the case of the Netherlands"
 authors: 
 - Francis Weyzig
-- Michiel Van Dijk
+- Michiel van Dijk
 date: "2009-01-01"
 doi: ""
 publishDate: ""
@@ -15,6 +15,7 @@ tags: []
 categories: []
 featured: false
 url_pdf: ""
+url_pdf: "http://www.tandfonline.com/doi/abs/10.1080/01436590903134916"
 url_code: ""
 url_dataset: ""
 url_poster: ""

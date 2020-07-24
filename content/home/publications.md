@@ -27,7 +27,7 @@ subtitle = ""
   [content.filters]
     tag = ""
     category = ""
-    publication_type = "2" # for journal
+    publication_type = "" # for journal
     author = ""
     exclude_featured = false
   

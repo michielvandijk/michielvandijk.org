@@ -1,12 +1,9 @@
 ---
-title: "Projections of long-term food security with R&D driven technical changeâA CGE analysis"
+title: "Projections of long-term food security with R&D driven technical changeA CGE analysis"
 authors: 
-- Z. Smeets Kristkova
-- Michiel Van Dijk
-- H. Van Meijl
-- Z S Kristkova
-- Van Dijk M
-- Van Meijl H
+- Zuzana Smeets Kristkova
+- Michiel van Dijk
+- H. van Meijl
 date: "2016-01-01"
 doi: "https://doi.org/10.1016/j.njas.2016.03.001"
 publishDate: ""
@@ -18,6 +15,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

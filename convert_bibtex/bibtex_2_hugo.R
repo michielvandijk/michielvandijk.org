@@ -43,9 +43,9 @@ bibtex2academic <- function(bibfile,
                                  CATEGORY == "PHDTHESIS" ~ "7",
                                  CATEGORY == "MANUAL" ~ "4",
                                  CATEGORY == "TECHREPORT" ~ "4",
-                                 CATEGORY == "BOOK" ~ "6",
-                                 CATEGORY == "INCOLLECTION" ~ "5",
-                                 CATEGORY == "INBOOK" ~ "5",
+                                 CATEGORY == "BOOK" ~ "5",
+                                 CATEGORY == "INCOLLECTION" ~ "6",
+                                 CATEGORY == "INBOOK" ~ "6",
                                  CATEGORY == "MISC" ~ "0",
                                  CATEGORY == "UNPUBLISHED" ~ "0",
                                  CATEGORY == "PATENT" ~ "8",
@@ -76,7 +76,8 @@ bibtex2academic <- function(bibfile,
              EDITOR2 = str_remove_all(EDITOR2, rm1),
              TITLE = str_remove_all(TITLE, kp),
              DATE = paste0(YEAR, "-01-01"),
-             DOI2 = ifelse(is.na(DOI), "", DOI)) 
+             DOI2 = ifelse(is.na(DOI), "", DOI),
+             URL2 = ifelse(is.na(URL), "", URL)) 
     
     foldername <- tolower(paste(df[["YEAR"]], df[["TITLE"]] %>%
                     str_remove_all("[^[:alnum:][:blank:]-]") %>%
@@ -113,7 +114,7 @@ bibtex2academic <- function(bibfile,
         if (!is.na(df[["VOLUME"]])) pub_format <- paste0(pub_format, ", ", df[["VOLUME"]])
         if (!is.na(df[["NUMBER"]])) pub_format <- paste0(pub_format, "(", df[["NUMBER"]], ")")
         if (!is.na(df[["PAGES"]])) pub_format <- paste0(pub_format,  ", pp. ", df[["PAGES"]])
-      } else if(df[["PUBTYPE"]] == 5) {
+      } else if(df[["PUBTYPE"]] == 6) {
         pub_format <- paste0(" In: ***", df[["BOOKTITLE"]], "***")
         if (!is.na(df[["EDITOR2"]])) pub_format <- paste0(pub_format, ". Ed. by ", df[["EDITOR2"]])
         if (!is.na(df[["ADDRESS"]])) pub_format <- paste0(pub_format, ". ", df[["ADDRESS"]])
@@ -161,6 +162,7 @@ bibtex2academic <- function(bibfile,
       
       #links
       write("url_pdf: \"\"", fileConn, append = T)
+      write(paste0("url_pdf: \"", df[["URL2"]], "\""),fileConn, append = T)
       write("url_code: \"\"", fileConn, append = T)
       write("url_dataset: \"\"", fileConn, append = T)
       write("url_poster: \"\"", fileConn, append = T)
@@ -205,7 +207,7 @@ bibtex2academic <- function(bibfile,
       fileConn <- file.path(outfold, foldername, bib_file)
       cite <- df %>%
         dplyr::select(CATEGORY, BIBTEXKEY, AUTHOR, TITLE, JOURNAL, YEAR, VOLUME, NUMBER, PAGES,
-                      BOOKTITLE, CHAPTER, NUMBER, SERIES, EDITOR, PUBLISHER, ADDRESS, DOI) %>%
+                      BOOKTITLE, CHAPTER, NUMBER, SERIES, EDITOR, PUBLISHER, ADDRESS, DOI, URL) %>%
         dplyr::mutate(
           AUTHOR = paste0(AUTHOR[[1]]["full_name"]$full_name, collapse = " and "),
           AUTHOR = str_remove_all(AUTHOR, rm1),

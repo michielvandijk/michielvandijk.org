@@ -1,7 +1,7 @@
 ---
 title: "Industry evolution and catching up in developing countries: the case of the Indonesian pulp and paper industry"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 date: "2005-01-01"
 doi: ""
 publishDate: ""
@@ -13,6 +13,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

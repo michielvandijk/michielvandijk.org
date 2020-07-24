@@ -1,7 +1,7 @@
 ---
 title: "A new database of public global agricultural R&D"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Keith O. Fuglie
 - Paul W. Heisey
 date: "2018-01-01"
@@ -15,6 +15,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

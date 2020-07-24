@@ -1,21 +1,22 @@
 ---
 title: "From Pilsner Desert to Specialty Beer Oasis: The Rise of Microbrewing in the Netherlands"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Jochem Kroezen
 - Bart Slob
-date: "2017-01-01"
+date: "2018-01-01"
 doi: ""
 publishDate: ""
-publication_types: ["5"]
-publication: " In: ***The Craft Beer Revolution: A Global Economic Perspective***. Ed. by Jo Swinnen, Christian Garavaglia. Palgrave"
-publication_short: " In: ***The Craft Beer Revolution: A Global Economic Perspective***. Ed. by Jo Swinnen, Christian Garavaglia. Palgrave"
+publication_types: ["6"]
+publication: " In: ***The Craft Beer Revolution: A Global Economic Perspective***. Ed. by Jo Swinnen, Christian Garavaglia. Cham: Palgrave Macmillan"
+publication_short: " In: ***The Craft Beer Revolution: A Global Economic Perspective***. Ed. by Jo Swinnen, Christian Garavaglia. Cham: Palgrave Macmillan"
 abstract: ""
 summary: ""
 tags: []
 categories: []
 featured: false
 url_pdf: ""
+url_pdf: "https://www.palgrave.com/gp/book/9783319582344"
 url_code: ""
 url_dataset: ""
 url_poster: ""

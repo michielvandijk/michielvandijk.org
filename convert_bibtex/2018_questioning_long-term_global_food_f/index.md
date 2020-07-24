@@ -2,7 +2,7 @@
 title: "Questioning long-term global food futures studies: a systematic, empirical, and normative approach"
 authors: 
 - Y. Saghai
-- Michiel Van Dijk
+- Michiel van Dijk
 - T. Morley
 - M. L. Rau
 date: "2018-01-01"
@@ -17,6 +17,7 @@ tags: []
 categories: []
 featured: false
 url_pdf: ""
+url_pdf: "https://www.wageningenacademic.com/doi/10.3920/978-90-8686-869-8_27"
 url_code: ""
 url_dataset: ""
 url_poster: ""

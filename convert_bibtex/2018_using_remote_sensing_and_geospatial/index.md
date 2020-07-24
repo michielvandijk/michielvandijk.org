@@ -5,12 +5,12 @@ authors:
 - Steffen Fritz
 - Inian Moorthy
 - Olha Danylo
-- Michiel Van Dijk
+- Michiel van Dijk
 - Barbara Ryan
 date: "2018-01-01"
 doi: ""
 publishDate: ""
-publication_types: ["5"]
+publication_types: ["6"]
 publication: " In: ***From summits to solutions: Innovations in Implementing the Sustainable Development Goals***. Ed. by Raj M. Desai, Hiroshi Kato, Homi Kharas, John W. McArthur. Washington, D.C.: Brookings Institution Press, pp. 172--198"
 publication_short: " In: ***From summits to solutions: Innovations in Implementing the Sustainable Development Goals***. Ed. by Raj M. Desai, Hiroshi Kato, Homi Kharas, John W. McArthur. Washington, D.C.: Brookings Institution Press, pp. 172--198"
 abstract: ""
@@ -18,6 +18,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

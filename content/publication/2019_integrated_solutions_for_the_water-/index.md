@@ -16,7 +16,7 @@ authors:
 - Amanda Palazzo
 - Alexander Popp
 - Keywan Riahi
-- Michiel Van Dijk
+- Michiel van Dijk
 - Michelle T.H. van Vliet
 - Detlef P. van Vuuren
 - Yoshihide Wada
@@ -36,6 +36,7 @@ tags: []
 categories: []
 featured: false
 url_pdf: ""
+url_pdf: "https://www.mdpi.com/2073-4441/11/11/2223"
 url_code: ""
 url_dataset: ""
 url_poster: ""

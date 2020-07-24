@@ -1,7 +1,7 @@
 ---
 title: "Industrial Policy and Technology Diffusion: Evidence from Paper Making Machinery in Indonesia"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Adam Szirmai
 date: "2006-01-01"
 doi: ""
@@ -14,6 +14,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""

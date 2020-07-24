@@ -1,7 +1,7 @@
 ---
 title: "Rapid growth with limited learning: Industrial policy and indonesias pulp and paper industry"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - Martin Bell
 date: "2007-01-01"
 doi: "10.1080/13600810701322017"
@@ -15,6 +15,7 @@ tags: []
 categories: []
 featured: false
 url_pdf: ""
+url_pdf: "http://dx.doi.org/10.1080/13600810701322017%5Cnhttp://www.tandfonline.com/doi/pdf/10.1080/13600810701322017"
 url_code: ""
 url_dataset: ""
 url_poster: ""

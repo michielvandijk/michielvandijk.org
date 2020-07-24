@@ -1,7 +1,7 @@
 ---
 title: "Catching up with history: A methodology to validate global CGE models"
 authors: 
-- Michiel Van Dijk
+- Michiel van Dijk
 - George Philippidis
 - Geert Woltjer
 date: "2016-01-01"
@@ -15,6 +15,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
+url_pdf: ""
 url_pdf: ""
 url_code: ""
 url_dataset: ""
