@@ -1,5 +1,6 @@
 [build]
-  command = "hugo --gc --minify -b $URL --themesDir ../../"
+  #command = "hugo --gc --minify -b $URL --themesDir ../../"
+  command = "hugo"
   #base    = "michielvandijk.org"
   publish = "public"
 
@@ -15,7 +16,8 @@
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --themesDir ../../"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL --themesDir ../../"
+  #command = "hugo --gc --minify -b $DEPLOY_PRIME_URL --themesDir ../../"
+  command = "hugo"
 
 [[headers]]
   for = "*.webmanifest"
