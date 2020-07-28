@@ -9,7 +9,7 @@ publishDate: ""
 publication_types: ["2"]
 publication: "***World Development***, 34(12), pp. 2137--2152"
 publication_short: "***World Development***, 34(12), pp. 2137--2152"
-abstract: "In this paper, we analyze the diffusion and adoption of paper making machinery in the Indonesian pulp and paper industry, from 1923 till 2000. We develop a machine level index of technological sophistication (mach), which measures the technological distance of each paper machine to the world technological frontier. The data reveal a pattern of rapid technological catch up. But catch up was not an industrywide phenomenon. Some modern firms installed state-of-the-art machinery, while others installed older vintages. The paper argues that industrial policy has played an important role in the speed and nature of diffusion of paper making machinery. ?? 2006 Elsevier Ltd. All rights reserved."
+abstract: "In this paper, we analyze the diffusion and adoption of paper making machinery in the Indonesian pulp and paper industry, from 1923 till 2000. We develop a machine level index of technological sophistication (mach), which measures the technological distance of each paper machine to the world technological frontier. The data reveal a pattern of rapid technological catch up. But catch up was not an industrywide phenomenon. Some modern firms installed state-of-the-art machinery, while others installed older vintages. The paper argues that industrial policy has played an important role in the speed and nature of diffusion of paper making machinery."
 summary: ""
 tags: []
 categories: []

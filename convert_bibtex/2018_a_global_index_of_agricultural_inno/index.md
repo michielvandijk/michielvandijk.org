@@ -7,7 +7,7 @@ authors:
 date: "2018-01-01"
 doi: ""
 publishDate: ""
-publication_types: ["0"]
+publication_types: ["3"]
 publication: ""
 publication_short: ""
 abstract: ""

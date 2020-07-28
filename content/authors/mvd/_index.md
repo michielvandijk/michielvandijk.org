@@ -1,7 +1,7 @@
 ---
 authors:
 - mvd
-bio: My research interests include Integrated assessment modeling, Scenario analysis, Food security, Agricultural innovation, Yield gap analysis.
+bio: Wageningen Economic Research
 education:
   courses:
   - course: PhD in Technology and Development Studies
@@ -41,7 +41,7 @@ superuser: true
 title: Michiel van Dijk
 ---
 
-Michiel van Dijk is a development economist with interest in the analysis and assessment of technology, food security and agricultural policies in developing countries and emerging economies using a combination of integrated assessment models, econometrics and scenario analysis. After obtaining a PhD in technology and development studies and having worked for several NGOs, he joined Wageningen Economic Research, part of [Wageningen University and Research](www.wur.nl) in 2011. From 2016 to 2020 he was employed as Research Scholar at the [International Institute for Applied Systems Analyis](www.iiasa.ac.at), with whom he remains affiliated. He has been a (lead) researcher in projects funded by CIMMYT, DFID, USAID, GEF, World Bank and the EU. His skills include computable general equilibrium modelling, micro-econometrics, GIS and (big) data management. He has extensive working experience in Africa, Asia and Latin America.
-
+# Welcome!
+I am senior research in the international policy department at [Wageningen Economic Research](https://www.wur.nl/en/Research-Results/Research-Institutes/Economic-Research.htm), part of [Wageningen University and Research](www.wur.nl). In my research I try to combine insights from micro-level analysis and in particular the behaviour of small-scale farmers in developing countries, with global assessments of agricultural development, food security and climate change. 
 
 

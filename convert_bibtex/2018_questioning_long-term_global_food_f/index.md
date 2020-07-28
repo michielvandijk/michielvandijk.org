@@ -11,7 +11,7 @@ publishDate: ""
 publication_types: ["1"]
 publication: ""
 publication_short: ""
-abstract: ""
+abstract: "Studies of the futures of food answer questions such as do we need to increase global agricultural production to feed the world sustainably in 2050? Conclusions vary dramatically. Similar variations and uncertainties are striking with respect to many other dimensions of food security and food systems. The sheer heterogeneity of methods used to explore the futures of food seems to undermine meaningful comparisons and aggregation between studies. These issues and others compromise responsible collective choices vital for humanity, nonhuman animals, and Earth systems. Disagreements on what policies and social actions we should adopt to shape the future of food depend on how we assess the evolution of food security and food systems over the long-term (at least 20 years into the future). Building upon foresight practice and theory, our team borrows tools from economics, STS, and philosophy to shed light on global food futures and food ethics. In this paper, we will introduce readers to some of our unpublished and provisional findings. We will cover two questions: (1) What does a systematic review of global food security modelling and projection studies reveal about predominant methods, food security indicators, drivers of change, and the range of future global food security projections? (2) Should the usual notion of a plausible future explicitly or implicitly invoked in global food futures scenarios to delineate the range of futures worth exploring be modified or abandoned to set free our epistemic, ethical, and political imagination?"
 summary: ""
 tags: []
 categories: []

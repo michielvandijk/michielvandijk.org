@@ -6,6 +6,10 @@
 #' Contact:  michiel.vandijk@wur.nl
 #'========================================================================================================================================
 
+# To force latex parsing of special characters in bibtex this might help:
+# https://sourcethemes.com/academic/docs/writing-markdown-latex/
+# See page elements section on how to escape slash, etc
+
 #' @title bibtex_2_academic
 #' @description import publications from a bibtex file to a hugo-academic website
 #' @author Lorenzo Busetto and Michiel van Dijk 
@@ -47,7 +51,7 @@ bibtex2academic <- function(bibfile,
                                  CATEGORY == "INCOLLECTION" ~ "6",
                                  CATEGORY == "INBOOK" ~ "6",
                                  CATEGORY == "MISC" ~ "0",
-                                 CATEGORY == "UNPUBLISHED" ~ "0",
+                                 CATEGORY == "UNPUBLISHED" ~ "3",
                                  CATEGORY == "PATENT" ~ "8",
                                  TRUE ~ "0")) %>%
     arrange(desc(YEAR), TITLE)
@@ -174,8 +178,13 @@ bibtex2academic <- function(bibfile,
       
       # Featured image
       # To use, add an image named `featured.jpg/png` to your page's folder. 
+      # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+      # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+      # Set `preview_only` to `true` to just use the image for thumbnails.
+      image:
       # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
       write("image: \n  caption: \"\"", fileConn, append = T)
+      write("placement: \"\"", fileConn, append = T)
       write("focal_point: \"\"", fileConn, append = T)
       write("preview_only: false", fileConn, append = T)
       

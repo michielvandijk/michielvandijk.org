@@ -19,7 +19,7 @@ abstract: "To guide policymaking, decision makers require a good understanding o
 summary: ""
 tags: []
 categories: []
-featured: false
+featured: true
 url_pdf: ""
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S2211912420300055"
 url_code: ""
@@ -32,7 +32,8 @@ url_source: ""
 url_video: ""
 image: 
   caption: ""
-focal_point: ""
+  placement: 1
+  focal_point: "Smart"
 preview_only: false
 projects: []
 slides: []

@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "About me"
+title = "Biography"
 subtitle = ""
 
 [design]
@@ -50,7 +50,9 @@ subtitle = ""
  css_class = ""
 +++
 
+Michiel van Dijk is a development economist with interest in the analysis and assessment of technology, food security and agricultural policies in developing countries and emerging economies using a combination of integrated assessment models, econometrics and scenario analysis. After earning his PhD in technology and development studies in 2004 and having worked for several NGOs, he joined Wageningen Economic Research, part of [Wageningen University and Research](www.wur.nl) in 2011. From 2016 to 2020 he was a Research Scholar at the [International Institute for Applied Systems Analyis](www.iiasa.ac.at), with whom he remains affiliated. He has been a (lead) researcher in projects funded by CIMMYT, DFID, USAID, GEF, World Bank and the EU. His skills include computable general equilibrium modelling, micro-econometrics, GIS and big data management. He has extensive working experience in Africa, Asia and Latin America.
 
+<!--
 I obtained my M.Sc. degree in quantitative economics from Maastricht University in 1999. In the same year I started with my PhD in technology and development studies at Eindhoven University of Technology. In my pHd thesis I studied the the development and 'catching up' of the Indonesian pulp and paper industry, which was one of the fastest (but not necessarily positive) developing industrial sectors in Indonesia in the 1990s. In my thesis I tried to insights from economics and innovation studies with industry characteristics related to technical and engineering features of this particular sector. The project was linked to the [Groningen Growth and Development Centre (GGDC)](https://www.rug.nl/ggdc/?lang=en) research of analysing long-run growth to better understand economic development. To collect data and enhance my understanding of the industry, I spend eight months at the Centre for Strategic and 
 I received my PhD in 2004 and related papers can be found here, here and here.  
 
@@ -77,3 +79,4 @@ In addition, Dr. van Dijk is involved in projects funded by DFID and CIMMYT to a
 
 , Oxfam Netherlands and Wageningen Economic Research (formerly known as LEI), where he is continuing his assignment as senior researcher for one day per week. 
 
+-->

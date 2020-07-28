@@ -1,14 +1,13 @@
 +++
-# A Featured Publications section created with the Featured Content widget.
-# This section displays publications from `content/publication/` which have
-# `featured = true` in their front matter.
+# A Recent Publications section created with the Pages widget.
+# This section displays recent blog posts from `content/publication/`.
 
-widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
+weight = 90  # Order that this section will appear.
 
-title = "Selected Publications"
+title = "Current research"
 subtitle = ""
 
 [content]
@@ -16,20 +15,21 @@ subtitle = ""
   page_type = "publication"
   
   # Choose how much pages you would like to display (0 = all pages)
-  count = 0
+  count = 5
+  
+  # Choose how many pages you would like to offset by
+  offset = 0
 
   # Page order. Descending (desc) or ascending (asc) date.
   order = "desc"
-
-  # Show a "See all pages" link underneath the featured content?
-  link_to_archive = false
 
   # Filter posts by a taxonomy term.
   [content.filters]
     tag = ""
     category = ""
-    publication_type = ""
+    publication_type = "3" # for journal
     author = ""
+    exclude_featured = false
   
 [design]
   # Toggle between the various page layout types.
@@ -44,7 +44,7 @@ subtitle = ""
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-  
+    
   # Background color.
   # color = "navy"
   
@@ -66,7 +66,8 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
+<!--
 {{% alert note %}}
-Browse all publications [here]({{< ref "/publication/_index.md" >}}).
+Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
 {{% /alert %}}
+-->
