@@ -8,9 +8,13 @@ links:
 slides: 
 summary: 
 title: Global food security assessments
-url_code: ""
+url_code: "flexdashboard/gfs_db/gfs_db.html"
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+knitr::include_url("/flexdashboard/gfs_db/gfs_db.html")
+```
 
