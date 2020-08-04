@@ -10,6 +10,9 @@
 # https://sourcethemes.com/academic/docs/writing-markdown-latex/
 # See page elements section on how to escape slash, etc
 
+# Check this for changing image size
+# https://github.com/gcushen/hugo-academic/issues/84
+
 #' @title bibtex_2_academic
 #' @description import publications from a bibtex file to a hugo-academic website
 #' @author Lorenzo Busetto and Michiel van Dijk 
