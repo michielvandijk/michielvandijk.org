@@ -13,6 +13,11 @@
 # Check this for changing image size
 # https://github.com/gcushen/hugo-academic/issues/84
 
+# Replace Michiel van dijk with _mvd_ so it becomes bold and will be replaced by a hyperlink to the main page
+
+# Filter out work in progress publications as they are not publications, unless there is a draft pdf
+
+
 #' @title bibtex_2_academic
 #' @description import publications from a bibtex file to a hugo-academic website
 #' @author Lorenzo Busetto and Michiel van Dijk 
