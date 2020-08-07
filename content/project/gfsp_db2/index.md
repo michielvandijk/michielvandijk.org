@@ -5,7 +5,7 @@ tags:
 date: "2020-08-04T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "flexdashboard/gfs_db2/gfs_db2.html"
+#external_link: "flexdashboard/gfs_db/gfs_db.html"
 
 image:
   caption: Photo by rawpixel on Unsplash
@@ -29,4 +29,4 @@ url_video: ""
 slides: example
 ---
 
-<iframe src="/flexdashboard/gfs_db2/gfs_db2.html" width="672" height="400px">
+<iframe src="/flexdashboard/gfs_db/gfs_db.html" width="672" height="400px">
