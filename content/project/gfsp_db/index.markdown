@@ -15,6 +15,5 @@ url_video: ""
 ---
 
 
+<iframe src="/flexdashboard/gfs_db/gfs_db.html" width="672" height="400px"></iframe>
 
-<iframe src="/flexdashboard/gfs_db/gfs_db.html" width="672" height="400px">
-</iframe>
