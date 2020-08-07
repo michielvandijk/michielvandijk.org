@@ -1,11 +1,11 @@
 ---
 title: GFS
 summary: An example of using the in-built project page.
-tags:
+tags: ""
 date: "2020-08-04T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-#external_link: "flexdashboard/gfs_db/gfs_db.html"
+external_link: ""
 
 image:
   caption: Photo by rawpixel on Unsplash
@@ -26,7 +26,11 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+slides: ""
 ---
+
+
+This is a project to test an iframe
+
 
 <iframe src="/flexdashboard/gfs_db/gfs_db.html" width="672" height="400px">
