@@ -1,17 +1,32 @@
 ---
-date: "2020-11-01T00:00:00Z"
-external_link: ""
+title: GFS
+summary: An example of using the in-built project page.
+tags:
+date: "2020-08-04T00:00:00Z"
+
+# Optional external URL for project (replaces project detail page).
+external_link: "flexdashboard/gfs_db2/gfs_db2.html"
+
 image:
-  caption: 
+  caption: Photo by rawpixel on Unsplash
   focal_point: Smart
+
 links:
-slides: 
-summary: 
-title: Global food security assessments
-url_code: "flexdashboard/gfs_db2/gfs_db.html"
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: example
 ---
 
 <iframe src="/flexdashboard/gfs_db2/gfs_db2.html" width="672" height="400px">
