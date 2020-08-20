@@ -16,6 +16,6 @@ url_video: ""
 
 
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-knitr::include_url("/flexdashboard/gfs_db/gfs_db.html")
+knitr::include_url("https://michielvandijk.shinyapps.io/gfsp_db_dashboard/")
 ```
 
