@@ -33,4 +33,4 @@ slides: ""
 This is a project to test an iframe
 
 
-<iframe src="/flexdashboard/gfs_db/gfs_db.html" width="672" height="400px">
+<iframe src="https://michielvandijk.shinyapps.io/gfsp_db_dashboard/" width="672" height="400px">
