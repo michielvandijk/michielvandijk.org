@@ -7,7 +7,7 @@ education:
   - course: PhD in Technology and Development Studies
     institution: Faculty of Technology Management, Eindhoven University of Technology, the Netherlands
     year: 2004
-  - course: M.Sc in Quantitative Economics
+  - course: MSc in Quantitative Economics
     institution: Faculty of Economics, Maastricht University, the Netherlands
     year: 1999
 email: michiel.vandijk@wur.nl
@@ -46,6 +46,6 @@ I am senior research in the international policy department at [Wageningen Econo
 
 I try to combine my economic and quantitative background with experience from working and living various developing countries to analyze research questions related to economic growth, food security and climate change. As tackling these large and complex issues requires a multi-disciplinary and integrated approach, I use a variety of tools, including global simulation models, econometric analysis and GIS and like to collaborate with agronomists, hydrologists and other scientists from different fields.
 
-Current research projects include a [systematic review of global food security projections](project/gfsp_db/), building a global database of agricultural R&D expenditures and improving the creation of [crop distribution maps](publication/generating-multi-period-crop-distribution-maps-for-southern-africa-using-a-data-fusion-approach/) (in collaboration with colleagues from the [International Food Policy Research Institute](https://www.mapspam.info/)). In my free time, you can find me on the water attempting to kitesurf when there is wind or on my snowboard when it is winter. In case there is time left, I also enjoy playing tennis, collecting records on vinyl and going to live concerts.   
+Current research projects include a systematic review of global food security projections and improving the creation of crop distribution maps (in collaboration with colleagues from the [International Food Policy Research Institute](https://www.mapspam.info/)). In my free time, you can find me on the water attempting to kitesurf when there is wind or on my snowboard when it is winter. In case there is time left, I also enjoy playing tennis, collecting records on vinyl and going to live concerts.   
 
 

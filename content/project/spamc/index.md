@@ -11,7 +11,7 @@ external_link: ""
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
   preview_only: false
-  placement: 2
+  placement: ""
   focal_point: ""
   caption: "Physical maize area in Southern African maize: 2000-2010. (a) Spatially explicit maize area and (b) maize area by country. Maize area is the sum of four farming systems"
   
