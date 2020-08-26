@@ -23,7 +23,7 @@ featured: true
 url_pdf: ""
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S2211912420300055"
 url_code: ""
-url_dataset: ""
+url_dataset: "https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:155312"
 url_poster: ""
 url_preprint: ""
 url_project: ""
