@@ -34,8 +34,8 @@ url_source: ""
 url_video: ""
 image: 
   caption: ""
-placement: ""
-focal_point: ""
+  placement: ""
+  focal_point: ""
 preview_only: false
 projects: []
 slides: []

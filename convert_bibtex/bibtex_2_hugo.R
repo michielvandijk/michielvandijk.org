@@ -14,6 +14,9 @@
 # https://github.com/gcushen/hugo-academic/issues/84
 
 # Replace Michiel van dijk with _mvd_ so it becomes bold and will be replaced by a hyperlink to the main page
+# Compare png name with folder name and if there is a match copy it to folder and rename to featured.png
+# Also set placement and focul point at the same time.
+# Placement and focul point need a tab.
 
 #' @title bibtex_2_academic
 #' @description import publications from a bibtex file to a hugo-academic website
