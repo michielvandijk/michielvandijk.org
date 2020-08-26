@@ -21,7 +21,7 @@ abstract: "Global economic models have been increasingly used to project food an
 summary: ""
 tags: []
 categories: []
-featured: false
+featured: true
 url_pdf: ""
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S2211912420300110"
 url_code: ""
