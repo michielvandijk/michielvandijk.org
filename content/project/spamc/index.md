@@ -1,7 +1,7 @@
 ---
 title: Spatial Production Allocation Model for Country studies (SPAM-C) 
 summary: Development of a model to create plausible spatial estimates of crop area at 30 arcsec resolution  spanning multiple years including a case study for seven countries in Southern Africa.
-tags: 
+tags: ["current research", "SPAM-C"]
 date: "2020-08-16T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -10,6 +10,7 @@ external_link: ""
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
+  preview_only: false
   placement: 2
   focal_point: ""
   caption: "Physical maize area in Southern African maize: 2000-2010. (a) Spatially explicit maize area and (b) maize area by country. Maize area is the sum of four farming systems"

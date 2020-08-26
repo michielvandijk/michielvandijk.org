@@ -1,7 +1,7 @@
 ---
 title: Global Food Security Projections DataBase (GFSPDB)
 summary: A database with harmonized projections on global food security indicators (global food consumption, per capita calorie consumption and people at risk of hunger) up to 2050.
-tags: 
+tags: ["food security", "current research"]
 date: "2020-08-16T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -10,6 +10,7 @@ external_link: ""
 # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
+  preview_only: false
   placement: 2
   focal_point: ""
   caption: "[Global Food Security Projections DataBase (GFSPDB) dashboard](https://michielvandijk.shinyapps.io/gfsp_db_dashboard/)"

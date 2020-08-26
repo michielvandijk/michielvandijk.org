@@ -15,9 +15,6 @@
 
 # Replace Michiel van dijk with _mvd_ so it becomes bold and will be replaced by a hyperlink to the main page
 
-# Filter out work in progress publications as they are not publications, unless there is a draft pdf
-
-
 #' @title bibtex_2_academic
 #' @description import publications from a bibtex file to a hugo-academic website
 #' @author Lorenzo Busetto and Michiel van Dijk 
@@ -189,7 +186,6 @@ bibtex2academic <- function(bibfile,
       # Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
       # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
       # Set `preview_only` to `true` to just use the image for thumbnails.
-      image:
       # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
       write("image: \n  caption: \"\"", fileConn, append = T)
       write("placement: \"\"", fileConn, append = T)

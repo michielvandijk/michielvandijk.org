@@ -30,7 +30,7 @@ tags: []
 categories: []
 featured: false
 url_pdf: ""
-url_pdf: "http://stacks.iop.org/1748-9326/13/i=6/a=064021?key=crossref.42a4eb1897f2ed545f2b0dc439d03e64"
+url_pdf: ""
 url_code: ""
 url_dataset: ""
 url_poster: ""
@@ -41,6 +41,7 @@ url_source: ""
 url_video: ""
 image: 
   caption: ""
+placement: ""
 focal_point: ""
 preview_only: false
 projects: []
