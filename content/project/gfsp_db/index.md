@@ -15,7 +15,7 @@ image:
   caption: "[Global Food Security Projections DataBase (GFSPDB) dashboard](https://michielvandijk.shinyapps.io/gfsp_db_dashboard/)"
   
 links:
-- icon: chart_line
+- icon: chart-line
   icon_pack: fas
   name: GFSPDB Dashboard
   url: https://michielvandijk.shinyapps.io/gfsp_db_dashboard/
@@ -44,17 +44,5 @@ Add reference list. Can only be done via rmarkdown but does not seem to render v
  -->
 
 
-We found that across five representative scenarios that span divergent but plausible socio-economic futures global food demand is expected to increase by +34% to +53% between 2010 and 2050, which is a substantially lower range than the often cited +60% to +110%. The latter range is based on earlier reference years and methodologies that are difficult to compare. We also found that population at risk of hunger is projected to decrease by -89% to -12%. For a subset of scenarios, food security outcomes worsen under climate change but comparison is difficult because of the small number of comparable projections. The GFSPDB can be used to benchmark new global food security projections and quantitative scenario studies and inform policy analysis and the public debate on the future of food. A paper describing the results is currently under review. 
-
-
-# Methodology
-
-To select relevant studies on global food security projections, we followed the guidelines for the qualified application of systematic review by the Evidence for Policy and Practice Information and Co-ordinating Centre (EPPI centre, University of London, https://eppi.ioe.ac.uk) and the Cochrane Handbook for Systematic Reviews of Interventions (http://training.cochrane.org/handbook). The core of the review was conducted between September 2017 and December 2017. However, following expert input, we included several studies that were published during the first half of 2018. The main steps to collect, screen and process the studies are described below. 
-
-We combined a number of search strategies to identify relevant studies: (1) we searched five electronic search engines of bibliographic databases (Scopus, Econlit, CAB abstracts, Agricola and Agris) using a combination of search terms (See Supplementary Information); (2) We used Google scholar but only including the first two pages with references; (3) We consulted websites of organisations and institutions (e.g. FAO, OECD, World Bank and IFPRI) that have published this type of research; (4) We consulted experts working on the topic to inquire about relevant studies; and (5) We conducted a 'snowballing' exercise on all references from several global food security review studies as they are assumed to bring together important literature. 
-
-The literature search generated a list of potentially relevant studies that were subsequently screened to assess their relevance by applying a set of exclusion/inclusion criteria. For 24 out of the 57 studies that resulted from the systematic literature review, we were able to extract quantitative and comparable information on food security projections. In order to make the data comparable across studies and over time we mapped the scenarios that were used to create the projections to the Shared Socio-economic Pathways (SSPs). We built upon @VanVuuren2012 and @VanVuuren2014b, who demonstrated that assumptions of many global socio-economic scenarios (including the SSPs) are similar and can be classified into five archetypal scenario 'families'. Similarly, drawing upon @VanVuuren2014b, we mapped climate change projections to the Representative Concentration Pathways (RCPs). The RCPs are a set of scenarios to reflect different potential climate outcomes used in recent IPCC climate assessment reports [@VanVuuren2011a]. They were designed to be combined with the SSPs as part of a scenario 'matrix' that encompasses the full spectrum of future socio-economic and climate change pathways [@VanVuuren2014]. 
-
-
-
+We found that across five representative scenarios that span divergent but plausible socio-economic futures global food demand is expected to increase by +34% to +53% between 2010 and 2050, which is a substantially lower range than the often cited +60% to +110%. The latter range is based on earlier reference years and methodologies that are difficult to compare. We also found that population at risk of hunger is projected to decrease by -89% to -12%. For a subset of scenarios, food security outcomes worsen under climate change but comparison is difficult because of the small number of comparable projections. The GFSPDB can be used to benchmark new global food security projections and quantitative scenario studies and inform policy analysis and the public debate on the future of food. A paper describing the results and the methodology is currently under review. 
 
