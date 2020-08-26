@@ -17,6 +17,8 @@
 # Compare png name with folder name and if there is a match copy it to folder and rename to featured.png
 # Also set placement and focul point at the same time.
 # Placement and focul point need a tab.
+# Add csv file with additional information, such as website links (project, data, etc), that can be automatically added
+# When the publication files are rebuild.
 
 #' @title bibtex_2_academic
 #' @description import publications from a bibtex file to a hugo-academic website
