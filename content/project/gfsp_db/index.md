@@ -47,6 +47,6 @@ Add reference list. Can only be done via rmarkdown but does not seem to render v
 
 We found that across five representative scenarios that span divergent but plausible socio-economic futures global food demand is expected to increase by +34% to +53% between 2010 and 2050, which is a substantially lower range than the often cited +60% to +110%. The latter range is based on earlier reference years and methodologies that are difficult to compare. We also found that population at risk of hunger is projected to decrease by -89% to -12%. For a subset of scenarios, food security outcomes worsen under climate change but comparison is difficult because of the small number of comparable projections. The GFSPDB can be used to benchmark new global food security projections and quantitative scenario studies and inform policy analysis and the public debate on the future of food. A paper describing the results and the methodology is currently under review. 
 
-co-authors:
-- Tom Morley, Marie Luise Rau, Wageningen Economic Research, the Hague, the Netherlands
-- Yashar Saghai, University of Twente, Enschede, the Netherlands
+Project members:
+- Michiel van Dijk, Tom Morley, Marie Luise Rau, Wageningen Economic Research, the Hague, the Netherlands
+- [Yashar Saghai](https://yasharsaghai.com/), University of Twente, Enschede, the Netherlands
