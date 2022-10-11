@@ -13,10 +13,10 @@ education:
 email: michiel.vandijk@wur.nl
 interests:
 - Integrated Assessment Modeling
-- Scenario analysis
-- Food security
-- Agricultural innovation
-- Yield gap analysis
+- Microsimulation
+- Food and nutrition security
+- Dietary transition
+
 organizations:
 - name: Wageningen Economic Research
   url: https://www.wur.nl/en/Research-Results/Research-Institutes/Economic-Research.htm
@@ -44,8 +44,8 @@ title: Michiel van Dijk
 # Welcome!
 I am a senior researcher in the international policy department at [Wageningen Economic Research](https://www.wur.nl/en/Research-Results/Research-Institutes/Economic-Research.htm), part of [Wageningen University and Research](www.wur.nl). I am also a guest research scholar (out of office) at the [International Institute for Applied Systems Analysis (IIASA)](https://iiasa.ac.at/). 
 
-I try to combine my economic and quantitative background with experience from working and living various developing countries to analyze research questions related to economic growth, food security and climate change. As tackling these large and complex issues requires a multi-disciplinary and integrated approach, I use a variety of tools, including global simulation models, econometric analysis and GIS and like to collaborate with agronomists, hydrologists and other scientists from different fields.
+I try to combine my economic and quantitative background with experience from working and living in various developing countries to analyze research questions related to economic growth, food and nutrition security, and climate change. As tackling these large and complex issues requires a multi-disciplinary and integrated approach, I use a variety of tools, including global simulation models, in particular our in-house computable general equilibrium model [MAGNET](https://www.magnet-model.org/), spatial microsimulation, econometric analysis and GIS, and like to collaborate with agronomists, hydrologists and other scientists from different fields.
 
-Current research projects include a systematic review of global food security projections and improving the creation of crop distribution maps (in collaboration with colleagues from the [International Food Policy Research Institute](https://www.mapspam.info/)). In my free time, you can find me on the water attempting to kitesurf when there is wind or on my snowboard in winter. In case there is time left, I also enjoy playing tennis, collecting records on vinyl and going to live concerts.   
+Current research projects include improving the creation of crop distribution maps (in collaboration with colleagues from the [International Food Policy Research Institute](https://www.mapspam.info/)), development of a spatial microsimulation model to assess future patterns of income, poverty and consumption change and the application of machine learning approaches to map the location of farmers. In my free time, you can find me on a skate- kitesurf or snowboard. In case there is time left, I also enjoy playing football, running, collecting records on vinyl and going to live concerts.   
 
 

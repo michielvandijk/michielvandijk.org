@@ -1,9 +1,9 @@
 ---
-title: Agricultural R&D database
-summary: A database with public agricultural R&D projections.
+title: Global public agricultural R&D database
+summary: Construction of a database with harmonized public agricultural R&D data for the period 1960-2020.
 draft: true
-tags: 
-date: "2020-08-16T00:00:00Z"
+tags: ["agricultural R&D", "current research"]
+date: "2022-10-11"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -16,10 +16,6 @@ image:
   caption: "[Global Food Security Projections DataBase (GFSPDB) dashboard](https://michielvandijk.shinyapps.io/gfsp_db_dashboard/)"
   
 links:
-- icon: chart-line
-  icon_pack: fas
-  name: GFSPDB Dashboard
-  url: https://michielvandijk.shinyapps.io/gfsp_db_dashboard/
 url_code: ""
 url_pdf: ""
 url_slides: ""
@@ -31,7 +27,6 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
-bibliography: FoodFutures.bib
 ---
 
 Ending hunger and achieving food security - one of the UN sustainable development goals - is a major global challenge. To inform the policy debate, quantified global scenarios and projections are used to assess long-term future global food security under a range of socio-economic and climate change scenarios. However, due to differences in model design and scenario assumptions, there is uncertainty about the range of food security projections and outcomes. To address this issue, we reviewed a large number of global food security modeling studies that have been published over the last two decades and constructed the Global Food Security Projections DataBase (GFSPDB), which contains harmonized and comparable global projections of key food security variables up to the year 2050. The most recent version of the database (version 1.1) covers data from 24 [studies] and three indicators: total global food consumption (1e15 kcal), per capita food consumption (kcal/cap/day) and people at risk of hunger (million). The database also includes the associated global population projections, which are a major determinant of the food security indicators. We created a [dashboard](https://michielvandijk.shinyapps.io/gfsp_db_dashboard/) to easily visualize and compare all projections in the GFSPDB.
