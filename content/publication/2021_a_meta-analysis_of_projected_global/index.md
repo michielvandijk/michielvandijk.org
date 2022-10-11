@@ -11,7 +11,7 @@ publishDate: ""
 publication_types: ["2"]
 publication: "***Nature Food***, 2(7), pp. 494--501"
 publication_short: "***Nature Food***, 2(7), pp. 494--501"
-abstract: ""
+abstract: "security under a range of socio-economic and climate change scenarios. Here, we conducted a systematic literature review and meta-analysis to assess the range of future global food security projections to 2050. We reviewed 57 global food security projection and quantitative scenario studies that have been published in the past two decades and discussed the methods, underlying drivers, indicators and projections. Across five representative scenarios that span divergent but plausible socio-economic futures, the total global food demand is expected to increase by 35 to 56 between 2010 and 2050, while population at risk of hunger is expected to change by 91 to +8 over the same period. If climate change is taken into account, the ranges change slightly (+30 to +62 for total food demand and 91 to +30 for population at risk of hunger) but with no statistical differences overall. The results of our review can be used to benchmark new global food security projections and quantitative scenario studies and inform policy analysis and the public debate on the future of food."
 summary: ""
 tags: []
 categories: []

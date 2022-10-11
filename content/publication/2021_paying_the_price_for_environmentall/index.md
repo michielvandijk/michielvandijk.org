@@ -18,7 +18,7 @@ publishDate: ""
 publication_types: ["2"]
 publication: "***Global Food Security***, 28, pp. 100437"
 publication_short: "***Global Food Security***, 28, pp. 100437"
-abstract: ""
+abstract: "We review consumer-side interventions and their effectiveness to support a transition to healthier and more environmentally sustainable diets and identify taxes/subsidies as relevant instruments. To quantify the scope of necessary tax levels to achieve dietary recommendations on EU average, we apply three established economic models. Our business-as-usual food intake projections stress the need for policy intervention to resolve continued divergence from nutrition guidelines. Our findings suggest that food group specific taxes are effective in reaching nutrition and environmental sustainability targets. However, considerable tax levels are required to achieve the targeted consumption shifts, inducing a discussion about alternative policy designs and current model limitations. A coherent policy package is suggested to approach nutrition and sustainability objectives simultaneously."
 summary: ""
 tags: []
 categories: []
