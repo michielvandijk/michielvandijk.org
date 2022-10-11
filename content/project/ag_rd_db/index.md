@@ -13,7 +13,7 @@ external_link: ""
 image:
   placement: 2
   focal_point: ""
-  caption: "[Global Food Security Projections DataBase (GFSPDB) dashboard](https://michielvandijk.shinyapps.io/gfsp_db_dashboard/)"
+  caption: ""
   
 links:
 url_code: ""
