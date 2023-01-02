@@ -1,5 +1,5 @@
 ---
-title: "A meta-analysis of projected global food demand and population at risk of hunger for the period 20102050"
+title: "A meta-analysis of projected global food demand and population at risk of hunger for the period 2010-2050"
 authors: 
 - Michiel van Dijk
 - Tom Morley
