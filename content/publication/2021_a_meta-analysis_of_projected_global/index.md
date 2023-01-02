@@ -15,7 +15,7 @@ abstract: "Quantified global scenarios and projections are used to assess long-t
 summary: ""
 tags: []
 categories: []
-featured: false
+featured: true
 url_pdf: ""
 url_pdf: "http://www.nature.com/articles/s43016-021-00322-9"
 url_code: ""

@@ -17,7 +17,7 @@ abstract: "Maize is an important staple crop in Ethiopia. Reducing the yield gap
 summary: ""
 tags: []
 categories: []
-featured: true
+featured: false
 url_pdf: ""
 url_pdf: "https://linkinghub.elsevier.com/retrieve/pii/S0308521X19314490"
 url_code: ""

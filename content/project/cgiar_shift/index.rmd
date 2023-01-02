@@ -1,6 +1,6 @@
 ---
 title: CGIAR Initiative - Sustainable Healthy Diets 
-tags: ["Food System Transition"]
+tags: ["Food System Transition", "current research"]
 date: "2022-11-28"
 
 # Optional external URL for project (note that this will create a direct link and replaces the project detail page).
