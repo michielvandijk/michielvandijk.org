@@ -1,0 +1,43 @@
+---
+title: CGIAR Initiative - Sustainable Healthy Diets 
+tags: ["Food System Transition"]
+date: "2022-11-28"
+
+# Optional external URL for project (note that this will create a direct link and replaces the project detail page).
+external_link: ""
+
+# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
+# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+# No need to add anything here, unless you want to show the featured.png picture only in list of projects but
+# not on top of the project description (preview_only: true). You can also add a caption to your featured.png that
+# will be placed on top.
+image:
+  preview_only: false
+  placement: ""
+  focal_point: ""
+  caption: ""
+
+# Add relevant links here. They will be added as icons on top - see examples. If there are no links use ""  
+links:
+- icon: chart-line
+  icon_pack: fas
+  name: Sustainable Healthy Diets Website
+  url: https://www.cgiar.org/initiative/sustainable-healthy-diets/
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+
+# Slides (optional).
+#   Associate this project with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
+#   Otherwise, set `slides = ""`.
+slides: ""
+
+---
+Food systems are not providing sustainable healthy diets for everyone, everywhere. Healthy diets are unaffordable for 3 billion people, and poor quality diets are associated with all forms of malnutrition and 11 million premature adult deaths each year. Diets are rapidly evolving due to changes in income, women’s employment, and urbanization and developments in technology, food marketing and public policy. These changes, happening in urban and rural areas, contribute to shifts in food environments, which are increasingly promoting ready-to-eat, convenient, cheap and often ultra-processed foods associated with poor health.
+
+This is the only CGIAR Initiative with the main goal of ensuring sustainable healthy diets for all through food systems transformation. Starting from an innovative, consumer-focused perspective, this Initiative aims to identify effective policy options through research; strengthen capacity and develop robust metrics and tools that support stakeholders’ decisions when developing pathways to transform food systems toward sustainable healthy diets, improved livelihoods, gender equity, and social inclusion.  
+
+Wageningen University & Research, together with the International Food Policy Research Institute (IFPRI) and the Alliance of Bioversity International and the International Center for Tropical Agriculture (CIAT), is leading the implementation the Sustainable Healthy Diets initiative. I am active in work package 4, which deals with the analysis of trade-offs and synergies associated with the transformation to healthy and sustainable diets. The MAGNET model, in combination with microsimulation modelling, will be used to support the development of country strategies in Bangladesh, Vietnam and Ethiopia. The project has a time horizon of two years with a possibility for extension.
