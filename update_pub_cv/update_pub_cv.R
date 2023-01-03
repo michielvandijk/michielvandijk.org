@@ -1,6 +1,6 @@
 # ========================================================================================
 # Project:  michielvandijk.org
-# Subject:  Script update website publications using .bib file from Mendeley
+# Subject:  updates publications and cv
 # Author:   Michiel van Dijk
 # Contact:  michiel.vandijk@wur.nl
 # ========================================================================================
@@ -29,7 +29,7 @@ options(digits = 4)
 
 
 # ========================================================================================
-# PROCESS FILES --------------------------------------------------------------------------
+# UPDATE PUBLICATIONS---------------------------------------------------------------------
 # ========================================================================================
 # Source function
 source(here("convert_bibtex/bibtex_2_hugo.R"))
@@ -42,3 +42,9 @@ outfold   <- here("content/publication/")
 bibtex2academic(bibfile  = bibfile, outfold   = outfold)
 
 
+# ========================================================================================
+# UPDATE CV ------------------------------------------------------------------------------
+# ========================================================================================
+
+cv_source <- "C:/data/github/CV/cv/michiel_van_dijk_cv_long.pdf"
+file.copy(cv_source, here("static/cv/michiel_van_dijk_cv_long.pdf"), overwrite = TRUE)
