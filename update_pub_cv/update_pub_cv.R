@@ -32,11 +32,11 @@ options(digits = 4)
 # UPDATE PUBLICATIONS---------------------------------------------------------------------
 # ========================================================================================
 # Source function
-source(here("convert_bibtex/bibtex_2_hugo.R"))
+source(here::here("update_pub_cv/bibtex_2_hugo.R"))
 
 # Set input and output file
 bibfile <- "C:/data/mendeley/my_pubs-website.bib"
-outfold   <- here("content/publication/")
+outfold   <- here::here("content/publication/")
 
 # process
 bibtex2academic(bibfile  = bibfile, outfold   = outfold)
