@@ -17,7 +17,10 @@ image:
   caption: ""
   
 links:
-url_code: ""
+- icon: chart-line
+  icon_pack: fas
+  name: Sustainable Healthy Diets Website
+  url: https://www.cgiar.org/initiative/sustainable-healthy-diets/
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -30,6 +33,5 @@ url_video: ""
 slides: ""
 ---
 
-The BrightSpace project, coordinated by Wageningen Economic Research was selected for funding within the Horizon Europe funding schema. The objective of BrightSpace is to design effective and sustainable strategies for assessing and addressing the challenges of EU agriculture to navigate within a safe and just operating space, including planetary boundaries. BrightSpace will provide a set of analytical instruments to experiment, analyse, and coordinate the effects of innovative governance structures and policies related to agriculture to navigate within a safe and just operating space. I will be leading of Work Package seven that deals with the safe operating space. 
-
+The BrightSpace project, coordinated by Wageningen Economic Research was selected for funding within the Horizon Europe funding schema. The objective of BrightSpace is to design effective and sustainable strategies for assessing and addressing the challenges of EU agriculture to navigate within a safe and just operating space, including planetary boundaries. BrightSpace will provide a set of analytical instruments to experiment, analyse, and coordinate the effects of innovative governance structures and policies related to agriculture to navigate within a safe and just operating space. I am leading work package seven that deals with developing new approaches and indicators to assess the safe operating space. 
 The project is expected to run from end of 2022 till end of 2027 and features 14 different partners from all over Europe, among others including: Wageningen Economic Research (NLD), Von Thuenen Institute (DEU), International Institure for Applied Systems Analysis (AUT), European Center for Agricultural, Regional and Environmental Policy Research (DEU) and Centro de Investigación y Tecnología Agroalimentaria de Aragón (ESP).
