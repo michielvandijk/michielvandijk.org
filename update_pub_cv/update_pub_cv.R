@@ -35,7 +35,7 @@ options(digits = 4)
 source(here::here("update_pub_cv/bibtex_2_hugo.R"))
 
 # Set input and output file
-bibfile <- "C:/data/mendeley/my_pubs-website.bib"
+bibfile <- "C:/data/mendeley/_my_pubs-website.bib"
 outfold   <- here::here("content/publication/")
 
 # process
