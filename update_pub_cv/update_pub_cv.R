@@ -47,4 +47,4 @@ bibtex2academic(bibfile  = bibfile, outfold   = outfold)
 # ========================================================================================
 
 cv_source <- "C:/data/github/CV/cv/michiel_van_dijk_cv_long.pdf"
-file.copy(cv_source, here("static/cv/michiel_van_dijk_cv_long.pdf"), overwrite = TRUE)
+file.copy(cv_source, here::here("static/cv/michiel_van_dijk_cv_long.pdf"), overwrite = TRUE)
